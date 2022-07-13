@@ -15,13 +15,13 @@ builder.Services.AddDbContext<Contexto>
 var app = builder.Build();
 app.UseSwagger();
 
-app.MapPost("AdicionarProduto", async (Produto produto, Contexto contexto) =>
+app.MapPost("produtos", async (Produto produto, Contexto contexto) =>
 {
     contexto.Produto.Add(produto);
     await contexto.SaveChangesAsync();
 });
 
-app.MapPost("ExcluirProduto/{id}", async (int id, Contexto contexto) =>
+app.MapDelete("produtos/{id}", async (int id, Contexto contexto) =>
 {
     var produto = await contexto.Produto.FirstOrDefaultAsync(p => p.Id == id);
     if(produto != null) 
@@ -31,12 +31,12 @@ app.MapPost("ExcluirProduto/{id}", async (int id, Contexto contexto) =>
     }
 });
 
-app.MapGet("ListarProdutos", async (Contexto contexto) =>
+app.MapGet("produtos", async (Contexto contexto) =>
 {
     return await contexto.Produto.ToListAsync();
 });
 
-app.MapGet("ObterProduto/{id}", async (int id, Contexto contexto) =>
+app.MapGet("produtos/{id}", async (int id, Contexto contexto) =>
 {
     return await contexto.Produto.FirstOrDefaultAsync(p => p.Id == id);
 });

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\FELIPE\\Desktop\\MinimalAPIOracle\\MinimalAPIOracle\\MinimalAPIOracle.csproj": {}
+    "E:\\Projetos\\MinimalApis\\MinimalApiOracle\\MinimalAPIOracle\\MinimalAPIOracle.csproj": {}
   },
   "projects": {
-    "C:\\Users\\FELIPE\\Desktop\\MinimalAPIOracle\\MinimalAPIOracle\\MinimalAPIOracle.csproj": {
+    "E:\\Projetos\\MinimalApis\\MinimalApiOracle\\MinimalAPIOracle\\MinimalAPIOracle.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FELIPE\\Desktop\\MinimalAPIOracle\\MinimalAPIOracle\\MinimalAPIOracle.csproj",
+        "projectUniqueName": "E:\\Projetos\\MinimalApis\\MinimalApiOracle\\MinimalAPIOracle\\MinimalAPIOracle.csproj",
         "projectName": "MinimalAPIOracle",
-        "projectPath": "C:\\Users\\FELIPE\\Desktop\\MinimalAPIOracle\\MinimalAPIOracle\\MinimalAPIOracle.csproj",
-        "packagesPath": "C:\\Users\\FELIPE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FELIPE\\Desktop\\MinimalAPIOracle\\MinimalAPIOracle\\obj\\",
+        "projectPath": "E:\\Projetos\\MinimalApis\\MinimalApiOracle\\MinimalAPIOracle\\MinimalAPIOracle.csproj",
+        "packagesPath": "C:\\Users\\Felipe\\.nuget\\packages\\",
+        "outputPath": "E:\\Projetos\\MinimalApis\\MinimalApiOracle\\MinimalAPIOracle\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\FELIPE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Felipe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -79,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
